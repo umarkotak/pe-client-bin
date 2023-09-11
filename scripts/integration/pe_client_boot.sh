@@ -1,6 +1,8 @@
 termux-wake-lock
 
 cd ~/pe-client-bin
+rm -f .git/index
+git reset
 git checkout -- .
 git pull --rebase origin master
 cd ~

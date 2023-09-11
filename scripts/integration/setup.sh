@@ -1,8 +1,5 @@
 #!/bin/sh
 
-echo "INSTALLING ALL DEPENDENCY"
-pkg update -y && pkg upgrade -y && pkg install -y golang python-numpy opencv-python ffmpeg
-
 echo "PREPARING FOR AUTOBOOT"
 mkdir -p ~/.termux/boot/
 chmod +x ~/pe-client-bin/scripts/integration/pe_client_boot.sh
